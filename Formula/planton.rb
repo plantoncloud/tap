@@ -1,4 +1,4 @@
-class Gitr < Formula
+class Planton < Formula
   version "v0.0.1"
   desc "planton-cli: cli interface to interact with planton cloud service"
   homepage "https://planton.cloud"
