@@ -13,3 +13,4 @@ class Cli < Formula
     mv bin/"#{binary_name}", bin/"planton"
   end
 end
+
