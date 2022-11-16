@@ -1,5 +1,5 @@
 class Mactl < Formula
-  version "v0.0.6"
+  version "v0.0.7"
   desc "mactl: cli to quickly bootstrap macbooks."
   homepage "https://github.com/plantoncloud/mactl"
   os_arch = `arch`
