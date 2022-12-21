@@ -4,7 +4,7 @@ class Gitr < Formula
   homepage "https://github.com/plantoncloud/gitr"
   os_arch = `arch`
   arch = (os_arch.include? "arm64")? "arm64" : "amd64"
-  url "https://storage.googleapis.com/planton-pcs-artifact-file-repo/tool/gitr/download/gitr-#{version}-#{arch}"
+  url "https://storage.googleapis.com/afs-planton-pos-uc1-ext-file-repo/tool/gitr/download/gitr-#{version}-#{arch}"
   def install
     os_arch = `arch`
     arch = (os_arch.include? "arm64")? "arm64" : "amd64"
