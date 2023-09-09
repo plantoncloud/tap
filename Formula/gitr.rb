@@ -1,10 +1,10 @@
 class Gitr < Formula
-  version "v1.0.0"
+  version "v1.0.1"
   desc "gitr: git rapid - save time(a ton) by opening git repos on web right from the command line"
   homepage "https://github.com/plantoncloud/gitr"
   os_arch = `arch`
   arch = (os_arch.include? "arm64")? "arm64" : "amd64"
-  url "https://storage.googleapis.com/afs-planton-pos-uc1-ext-file-repo/tool/gitr/download/gitr-#{version}-#{arch}"
+  url "https://storage.googleapis.com/gitr-downloads/#{version}/mactl-#{version}-#{arch}"
   def install
     os_arch = `arch`
     arch = (os_arch.include? "arm64")? "arm64" : "amd64"
