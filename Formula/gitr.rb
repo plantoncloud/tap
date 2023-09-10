@@ -4,7 +4,7 @@ class Gitr < Formula
   homepage "https://github.com/plantoncloud/gitr"
   os_arch = `arch`
   arch = (os_arch.include? "arm64")? "arm64" : "amd64"
-  url "https://storage.googleapis.com/gitr-downloads/#{version}/mactl-#{version}-#{arch}"
+  url "https://storage.googleapis.com/gitr-downloads/#{version}/gitr-#{version}-#{arch}"
   def install
     os_arch = `arch`
     arch = (os_arch.include? "arm64")? "arm64" : "amd64"
