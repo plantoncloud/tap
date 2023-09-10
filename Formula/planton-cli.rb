@@ -1,6 +1,6 @@
 class PlantonCli < Formula
-  version "v0.0.44"
-  desc "planton-cli: cli interface to interact with planton cloud service"
+  version "v0.0.68"
+  desc "planton-cli: CLI interface to interact with Planton Cloud"
   homepage "https://planton.cloud"
   os_arch = `arch`
   arch = (os_arch.include? "arm64")? "arm64" : "amd64"
@@ -13,4 +13,3 @@ class PlantonCli < Formula
     mv bin/"#{binary_name}", bin/"planton"
   end
 end
-
