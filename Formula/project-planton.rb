@@ -1,4 +1,4 @@
-class ProojectPlanton < Formula
+class ProjectPlanton < Formula
   version "v0.0.1"
   desc "ProjectPlanton: Multi-Cloud Unified Resource Model (MERM)"
   homepage "https://project-planton.io"
