@@ -1,5 +1,5 @@
 class ProjectPlanton < Formula
-  version "v0.0.9"
+  version "v0.0.10"
   desc "ProjectPlanton: Multi-Cloud Unified Resource Model (MERM)"
   homepage "https://project-planton.io"
   os_arch = `arch`
