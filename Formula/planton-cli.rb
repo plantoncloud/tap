@@ -1,4 +1,4 @@
-class Cli < Formula
+class PlantonCli < Formula
   version "v0.2.29"
   desc "planton: CLI interface for Planton Cloud"
   homepage "https://planton.cloud"
